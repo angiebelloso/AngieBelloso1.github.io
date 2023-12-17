@@ -1,0 +1,59 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background: #2e4d69;
+	color: #f7d0da;
+	font-family:Candara, Futura, Gill Sans, sans-serif;
+}
+
+
+#container {
+	border: 3px solid rgb(264, 229, 44, 0.8);
+	background: rgba(152, 176, 13, 0.8);
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+a {
+	color: green;
+}
+
+Main nav a {
+	color: pink;
+}
+
+a:hover {
+	color: white;
+}
+
+Nav ul {
+	list-style:none;
+	padding-left:0px;
+}
+
+Figure {
+	margin:0px;
+}
+
+Figure img {
+	width: 65%
+}
+
+Figcaption, footer {
+	font-size: 0.75em;
+}
