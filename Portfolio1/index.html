@@ -18,16 +18,29 @@
   <div id="container">
 <header>
 <h1>Angie Belloso</h1>
-<h2>Portfolio</h2>
-
+<h2 id="anything">Portfolio</h2>
+    
 <script>
-function Angie(){
-alert("Here is a secret message");
+ function Angie(){
+ alert("Here is a secret message");
+ }
+    
+function changeBg(myColor){
+//document.body.style.background = "blue";
+document.body.style.background = myColor;
+}
+    
+function changeContent(){
+document.getElementById("anything").innerHTML="Here is <em>another</em> secret message";
 }
 </script>
 
-<button onclick="Angie()">Click me!</button>	
-	
+<button onclick="Angie()">Click me!</button>
+<!--<button onclick="changeBg()">Change background</button>--> 
+<button onclick="changeBg('#ba11a1')">Go magenta!</button>
+<button onclick="changeBg('#0cc4c7')">Go aqua!</button>
+<button onclick="changeBg('#4ed604')">Go lime!</button>
+<button onclick="changeContent()">Surprise me</button>
 </header>
 
 <nav>
@@ -36,6 +49,7 @@ alert("Here is a secret message");
 <li><a href="bio.html">Bio</a></li>
 <li><a href="assignments.html">Assignments</a></li>
 <li><a href="final-project.html">Final Project</a></li>
+<li><a href="index.html">Fan site</a></li>    
 </ul>
 </nav>
 
